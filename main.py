@@ -5,7 +5,6 @@ from web3 import Web3
 from hexbytes import HexBytes
 
 
-
 infura_url = 'https://mainnet.infura.io/v3/{your api key}'
 
 web3 = Web3(Web3.HTTPProvider(infura_url))
